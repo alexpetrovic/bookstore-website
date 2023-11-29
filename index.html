@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="IT BOOKvar je online prodavnica stručnih i tehničkih knjiga iz oblasti IT-ja, programiranja, softverskog inženjerstva i ostalih softverskih oblasti.">
+    <meta name="keywords" content="IT BOOKvar, programiranje, knjige o programiranju, web development, softversko inženjerstvo, edukacija, knjižara">
+    <meta name="author" content="Aleksandar Petrović, apetrovic@itbookvar.rs">
+    <script src="js/all.min.js"></script>
+    <title>IT BOOKvar | Početna</title>
+</head>
+
+<body>
+
+    <!-- Navbar start-->   
+    <nav class="navbar navbar-expand-xxl navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="index.html"><img src="img/logo.png" alt="IT BOOKvar"></a>     
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="onama.html">O nama</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Knjige
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="frontend.html">Frontend</a></li>
+                    <li><a class="dropdown-item" href="backend.html">Backend</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="intervju.html">Priprema za intervju</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="akcija.html" class="nav-link "><strong>Knjige na akciji</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a href="galerija.html" class="nav-link ">Galerija</a>
+                </li>
+                <li class="nav-item">
+                  <a href="faq.html" class="nav-link ">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a href="katalog.html" class="nav-link ">Katalog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="mapa.html" class="nav-link ">Mapa sajta</a>
+                </li><li class="nav-item">
+                  <a href="kontakt.html" class="nav-link ">Kontakt</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav me-5">
+                <li class="nav-item">
+                  <a href="" class="nav-link"></a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Unesite pojam za pretragu" aria-label="Search">
+                <button id="search" class="btn btn-outline-light" type="submit">Pretraži</button>
+              </form>
+              <div class="d-flex flex-row-reverse registration">
+                <div class="p-2"><a href="#"><i class="fas fa-cart-plus"></i> Korpa</a></div>
+                <div class="p-2"><a href="#"><i class="fas fa-user-plus"></i> Registracija</a></div>
+                <div class="p-2"><a href="#"><i class="fas fa-sign-in-alt"></i> Prijava</a></div>
+              </div>
+            </div>
+          </div>
+    </nav>
+    <!-- Navbar end-->
+
+    <!-- Carousel starts-->
+    <div id="mainCarousel" class="carousel slide container-fluid mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/pic4.jpg" class="d-block w-100 carousel-height" alt="book">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pic1.jpg" class="d-block w-100 carousel-height" alt="bookshelf">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pic5.jpg" class="d-block w-100 carousel-height" alt="laptop">
+        </div>
+        
+      </div>
+    </div>
+    <!-- Carousel ends-->
+
+    <!-- Showcase starts-->
+
+    <div class="container">
+      <div class="display-5 text-center mt-6 mb-6 fs-1">
+        <p >Već 25 godina vam donosimo najveći izbor knjiga iz IT sveta, na srpskom i engleskom jeziku</p>
+      </div>
+
+
+      <!-- Preporucujemo carousel start-->
+      <div class="alert alert-secondary section-heading m-3">
+        <em>Preporučujemo</em>
+      </div>
+
+      <div id="carouselExampleControls" class="carousel slide mt-3 container" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-wrapper">
+            <div class="card m-3 card-carousel" style="width: 18rem;">
+              <img src="img/card1.png" class="card-img-top" alt="React i react native">
+              <div class="card-body">
+                <h5 class="card-title">React i react native</h5>
+                <p class="card-text">Tip: Frontend programiranje<br>
+                Izdavač: IT BOOKvar<br>
+                Cena: 1.999 RSD<br>
+                </p>                       
+                <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>
+            </div>
+            </div>
+            <div class="card m-3 card-carousel" style="width: 18rem;">
+              <img src="img/card2.png" class="card-img-top" alt="MySQL Radionica">
+              <div class="card-body">
+                <h5 class="card-title">MySQL Radionica</h5>
+                <p class="card-text">Tip: Backend programiranje<br>
+                Izdavač: IT BOOKvar<br>
+                Cena: 1.499 RSD<br>
+                </p>                       
+                <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>
+            </div>           
+            </div>  
+            <div class="card m-3 card-carousel" style="width: 18rem;">
+              <img src="img/card3.jpg" class="card-img-top" alt="C++">
+              <div class="card-body">
+                <h5 class="card-title">C++</h5>
+                <p class="card-text">Tip: Ostalo<br>
+                Izdavač: IT BOOKvar<br>
+                Cena: 1.799 RSD<br>
+                </p>                       
+                <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>
+            </div>          
+            </div>       
+            <div class="card m-3 card-carousel" style="width: 18rem;">
+              <img src="img/card4.png" class="card-img-top" alt="Linux za mreže">
+              <div class="card-body">
+                <h5 class="card-title">Linux za mreže</h5>
+                <p class="card-text">Tip: Backend programiranje<br>
+                Izdavač: IT BOOKvar<br>
+                Cena: 2.299 RSD<br>
+                </p>                       
+                <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>
+            </div>          
+            </div>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper">
+            <div class="card m-3 card-carousel" style="width: 18rem;">
+              <img src="img/card5.jpg" class="card-img-top" alt="Android 4 - Razvoj aplikacija">
+              <div class="card-body">
+                <h5 class="card-title">Android 4 - Razvoj aplikacija</h5>
+                <p class="card-text">Tip: Mobile<br>
+                Izdavač: IT BOOKvar<br>
+                Cena: 2.199 RSD<br>
+                </p>                       
+                <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>
+            </div>
+            </div>
+            <div class="card m-3 card-carousel" style="width: 18rem;">
+              <img src="img/card6.jpg" class="card-img-top" alt="Vue.js 3 Kuvar">
+              <div class="card-body">
+                <h5 class="card-title">Vue.js 3 Kuvar</h5>
+                <p class="card-text">Tip: Frontend programiranje<br>
+                Izdavač: IT BOOKvar<br>
+                Cena: 1.999 RSD<br>
+                </p>                       
+                <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>
+            </div>           
+            </div>  
+            <div class="card m-3 card-carousel" style="width: 18rem;">
+              <img src="img/card7.jpg" class="card-img-top" alt="Visual Basic 2015 u 24 lekcije">
+              <div class="card-body">
+                <h5 class="card-title">Visual Basic 2015 u 24 lekcije</h5>
+                <p class="card-text">Tip: Backend programiranje<br>
+                Izdavač: IT BOOKvar<br>
+                Cena: 1.899 RSD<br>
+                </p>                       
+                <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>
+            </div>          
+            </div>       
+            <div class="card m-3 card-carousel" style="width: 18rem;">
+              <img src="img/card8.png" class="card-img-top" alt="JavaScript od početnika do profesionalca">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript od početnika do profesionalca</h5>
+                <p class="card-text">Tip: Frontend programiranje<br>
+                Izdavač: IT BOOKvar<br>
+                Cena: 1.599 RSD<br>
+                </p>                       
+                <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>
+            </div>          
+            </div>  
+          </div>
+        </div>
+        
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+      <!-- Preporucujemo carousel end-->
+
+
+      <!-- Najnovija izdanja carousel start-->
+      <div class="alert alert-secondary section-heading m-3">
+        <em>Najnovija izdanja</em>
+      </div>
+
+      <div id="carouselExampleControls" class="carousel slide mt-3 container" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-wrapper">
+              <div class="card m-3 card-carousel" style="width: 18rem;">
+                  <img src="img/card9.jpg" class="card-img-top" alt="Django 3 kroz primere">
+                  <div class="card-body">
+                    <h5 class="card-title">Django 3 kroz primere</h5>
+                    <p class="card-text">Tip: Backend programiranje<br>
+                      Izdavač: IT BOOKvar<br>
+                      Cena: 2.199 RSD<br>
+                    </p>
+                    <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button> 
+                  </div>
+              </div>
+              <div class="card m-3 card-carousel" style="width: 18rem;">
+                <img src="img/card10.jpg" class="card-img-top" alt="Java 9">
+                <div class="card-body">
+                  <h5 class="card-title">Java 9</h5>
+                  <p class="card-text">Tip: Backend programiranje<br>
+                  Izdavač: IT BOOKvar<br>
+                  Cena: 2.199 RSD<br>
+                  </p> 
+                  <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>                      
+                </div>          
+              </div>  
+              <div class="card m-3 card-carousel" style="width: 18rem;">
+                <img src="img/card11.jpg" class="card-img-top" alt="C#">
+                <div class="card-body">
+                  <h5 class="card-title">C# 10 | .NET 6</h5>
+                  <p class="card-text">Tip: Backend programiranje<br>
+                  Izdavač: IT BOOKvar<br>
+                  Cena: 2.399 RSD<br>
+                  </p>                       
+                  <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>                        
+              </div>          
+              </div>       
+              <div class="card m-3 card-carousel" style="width: 18rem;">
+                <img src="img/card12.png" class="card-img-top" alt="cisto majstorstvo">
+                <div class="card-body">
+                  <h5 class="card-title">Čisto majstorstvo</h5>
+                  <p class="card-text">Tip: Ostalo<br>
+                  Izdavač: IT BOOKvar<br>
+                  Cena: 1.999 RSD<br>
+                  </p>                       
+                  <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>
+              </div>           
+              </div>  
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper">
+              <div class="card m-3 card-carousel" style="width: 18rem;">
+                <img src="img/card13.jpg" class="card-img-top" alt="Čisto agilno">
+                <div class="card-body">
+                  <h5 class="card-title">Čisto agilno</h5>
+                  <p class="card-text">Tip: Ostalo<br>
+                  Izdavač: IT BOOKvar<br>
+                  Cena: 1.499 RSD<br>
+                  </p> 
+                  <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>                     
+              </div>
+              </div>
+              <div class="card m-3 card-carousel" style="width: 18rem;">
+                <img src="img/card14.jpg" class="card-img-top" alt="Čista arhitektura">
+                <div class="card-body">
+                  <h5 class="card-title">Čista arhitektura</h5>
+                  <p class="card-text">Tip: Ostalo<br>
+                  Izdavač: IT BOOKvar<br>
+                  Cena: 2.199 RSD<br>
+                  </p> 
+                  <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>                      
+              </div>          
+              </div>  
+              <div class="card m-3 card-carousel" style="width: 18rem;">
+                <img src="img/card15.jpg" class="card-img-top" alt="Visual Basic 2015 u 24 lekcije">
+                <div class="card-body">
+                  <h5 class="card-title">Jasan kod</h5>
+                  <p class="card-text">Tip: Ostalo<br>
+                  Izdavač: IT BOOKvar<br>
+                  Cena: 1.799 RSD<br>
+                  </p>                       
+                  <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>                        
+              </div>          
+              </div>       
+              <div class="card m-3 card-carousel" style="width: 18rem;">
+                <img src="img/card16.jpg" class="card-img-top" alt="Naučite Unity 5.x">
+                <div class="card-body">
+                  <h5 class="card-title">Naučite Unity 5.x</h5>
+                  <p class="card-text">Tip: Ostalo<br>
+                  Izdavač: IT BOOKvar<br>
+                  Cena: 1.799 RSD<br>
+                  </p>                       
+                  <button type="button" class="btn btn-outline-primary form-button">Dodaj u korpu!</button>                        
+              </div>          
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Najnovija izdanja carousel end-->
+
+      <hr>
+
+
+      <div class="card md-3 card-no-hover">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/knjizara.jpg" alt="knjižara">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title fs-1">Posetite nas u radnji</h5>
+              <p class="card-text mt-5">
+                Bez obzira na lakoću onlajn kupovine, svesni smo da neki od vas ipak vole da se 
+                  prošetaju i lično preuzmu kupljene. <br>
+                  Za sve vas koji volite iskustvo kupovine u knjižari, na raspolaganju vam stoji naša 
+                  radnja u kojoj možete kupiti apsolutno sve knjige koje su dostupne i za online kupovinu.
+              </p>
+              <a href="kontakt.html" class="btn btn-outline-light mt-5">Pogledaj lokaciju</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Showcase ends-->
+
+  <!-- Footer start -->
+  <footer  class="page-footer">
+    <div class="container">
+      <div class="row py-3 mr-5 mt-4">
+        <div class="col-12 social">
+            <a href="https://www.facebook.com/" target="_blank" class="p-4">
+              <i class="fab fa-facebook-f fa-2x ml-5"> </i>
+            </a>
+       
+            <a href="https://twitter.com/" target="_blank" class="p-4">
+              <i class="fab fa-twitter fa-2x ml-5"> </i>
+            </a>
+         
+            <a href="https://www.instagram.com/" target="_blank" class="p-4">
+              <i class="fab fa-instagram  fa-2x ml-5  mr-3"> </i>
+            </a>
+        
+      </div>
+  
+      <div class="text-center mb-3">
+        <h3>Linkovi</h3>
+      </div>
+
+      <div class="text-center mb-5">
+          <a href="index.html"><small>Početna</small></a> |
+          <a href="onama.html"><small>O nama</small></a> |
+          <a href="frontend.html"><small>Frontend knjige</small></a> |
+          <a href="backend.html"><small>Backend knjige</small></a> |
+          <a href="intervju.html"><small>Knjige za intervju</small></a> |
+          <a href="galerija.html"><small>Galerija</small></a> |
+          <a href="faq.html"><small>FAQ</small></a> |
+          <a href="katalog.html"><small>Katalog</small></a> |
+          <a href="mapa.html"><small>Mapa sajta</small></a> |
+          <a href="kontakt.html"><small>Kontakt</small></a> |    
+      </div>
+
+
+      <div class="footer-copyright text-center mt-2 mb-2 ">IT BOOKvar 2023 ©
+      </div>  
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
